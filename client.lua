@@ -18,7 +18,7 @@ AddEventHandler('ss:showMessage', function(adminId, config)
         while showMessage do  
             Citizen.Wait(0)
 
-            -- Fekete képernyő megjelenítése
+
             if config.BlackScreen then
 
                 DrawRect(0.5, 0.5, 2.0, 2.0, 0, 0, 0, 255) 
@@ -36,7 +36,7 @@ AddEventHandler('ss:showMessage', function(adminId, config)
 
 
 
-            -- Fegyver eltávolítása
+       
             if config.DisableWeapon then
                 local playerPed = PlayerPedId()
                 TriggerEvent('ox_inventory:clearWeapons', playerPed)
