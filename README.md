@@ -2,7 +2,7 @@
 SS-screen
 
 Használat:
-Állits be a config.lua-t 
+Állitsd be a config.lua-t 
 
 Parancsok:
 /ss [id]
